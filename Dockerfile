@@ -1,8 +1,9 @@
-# Use the official nginx image
 FROM nginx:alpine
 
-# Copy our HTML into the nginx public folder
-COPY index.html /usr/share/nginx/html/index.html
+# Clear default nginx HTML files (optional)
+RUN rm -rf /usr/share/nginx/html/*
 
-# Expose port 80
+# Copy all your files (index.html, style.css, script.js) into the nginx folder
+COPY . /usr/share/nginx/html/
+
 EXPOSE 80
