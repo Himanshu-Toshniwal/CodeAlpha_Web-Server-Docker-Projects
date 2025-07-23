@@ -47,10 +47,6 @@ The JavaScript file (`script.js`) includes:
 - **`updateStorage()`**: Updates local storage with the current notes.
 - **Event Listeners**: Handles button clicks for creating notes and interactions for editing and deleting notes.
 
-## Screenshots
-Include screenshots of your application below to showcase its features and user interface.
-
-![Screenshot 1]()
 
 ## Usage
 To use the Notes App:
